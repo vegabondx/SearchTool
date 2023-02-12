@@ -4,9 +4,11 @@
   "short_name": "Search",
   "description": "Searches for the selected text in the UrbanDictionary",
   "version": "0.0.1",
-  "minimum_chrome_version": "38",
+  "minimum_chrome_version": "48",
   "permissions": [
-    "contextMenus", 
+    "browsingData",
+    "activeTab",
+    "contextMenus",
     "tabs"],
   "icons": {
     "16": "assets/search.png"
