@@ -4,6 +4,7 @@ searchUrbanDict = function(word){
   chrome.tabs.create({url: "https://en.wikipedia.org/w/index.php?search=" + query + "&title=Special%3ASearch&go=Go"});
 };
 
+
 chrome.contextMenus.create({
   title: "Search in UrbanDictionary",
   contexts:["selection"],
